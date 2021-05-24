@@ -1,0 +1,48 @@
+article {
+    margin: 5%;
+    h5 {
+        color: $raisin-black;
+        font-size: 18px;
+        font-family: 'Playfair Display', serif;
+        padding-bottom: 10px;
+    }
+    p {
+        padding-top: 10px;
+        color: $raisin-black;
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+        text-align: left;
+        line-height: 3;
+    }
+    p a:link {
+        color: $ruddy-pink;
+    }
+    p a:visited {
+        color: $ruddy-pink;
+    }
+    hr.separacion {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border: 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+      }
+      &__naomi {
+        h1 {
+            color: $eerie-black;
+            font-size: 30px;
+            font-family: 'Playfair Display', serif;
+            font-weight: bold;
+        }
+        h2 {
+            color: $ruddy-pink;
+            font-size: 20px;
+        }
+        h3 {
+            color: #707070;
+            font-size: 14px;
+            font-family: 'Roboto', sans-serif;
+            text-align: left;
+            line-height: 2;
+        }
+      }
+}

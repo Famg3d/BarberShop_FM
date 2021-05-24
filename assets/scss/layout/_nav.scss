@@ -1,0 +1,14 @@
+nav {
+    background-color: $eerie-black;
+    img {
+        width: 79px;
+        height: 46px;
+    }
+    &__group {
+        text-align-last: right;
+    }
+  li a:hover {
+    color: $ruddy-pink;
+  }
+
+}
